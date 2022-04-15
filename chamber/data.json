@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Bole Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 100,
+        "ceo": "Lafulji",
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "rating": 4.4,
+        "image":"/images/b.jpg"
+    },
+    {
+        "name": "Muli Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 10,
+        "ceo": "Andre",
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "rating": 4.9,
+        "image": "/images/Chamber logo.png"
+    },
+
+    {
+        "name": "Mboh Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 11,
+        "ceo": "Andem",
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "rating": 4.9,
+        "image": "/images/images (2).jpg"
+    },
+
+    {
+        "name": "Boco Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 12,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Edidem",
+        "rating": 4.9,
+        "image": "/images/images (3).jpg"
+    },
+
+    {
+        "name": "Minika Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 13,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Eyo",
+        "rating": 4.9,
+        "image": "/images/images (4).jpg"
+    },
+
+    {
+        "name": "Bassey Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 10,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Esin",
+        "rating": 4.9,
+        "image": "/images/images (5).jpg"
+    },
+
+    {
+        "name": "Etifit Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 15,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Nkoyo",
+        "rating": 4.9,
+        "image": "/images/icon of bungalow.jpg"
+    },
+
+    {
+        "name": "Enang Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 16,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Asuquo",
+        "rating": 4.9,
+        "image": "/images/sun images.jpg"
+    },
+
+    {
+        "name": "Akpanika Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 10,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Ufan",
+        "rating": 4.9,
+        "image": "/images/snow.jpg"
+    },
+
+    {
+        "name": "Mutanda Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 10,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Ima",
+        "rating": 4.9,
+        "image": "/images/Chamber logo.png"
+    },
+
+    {
+        "name": "Nkese Corporation",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 10,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Ekeng",
+        "rating": 4.9,
+        "image": "/images/snow.jpg"
+    },
+
+    {
+        "name": "Small startup",
+        "address": "Pound road Port Harcourt",
+        "numberOfEmployees": 10,
+        "phone": "0802 786 1481",
+        "website": "ourwebsite.com",
+        "ceo": "Etta",
+        "rating": 3.4,
+        "image": "/images/icon of ribbon.png"
+    }
+
+]

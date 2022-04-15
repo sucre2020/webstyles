@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <title>Port Harcourt City Chamber of Commerce</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="smallForm.css" />
+    <link rel="stylesheet" href="mediumForm.css" />
+    <link rel="stylesheet" href="largeForm.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Lora&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/Port-Harcourt.jpg" type="image/x-icon">
+    <meta
+      name="description"
+      content="Efita Effiom site for Port Harcourt City Chamber of Commerce"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <img class="logo"
+        src="/images/Chamber logo.png"
+        alt="Port Harcourt City Chamber of Commerce Logo"
+      />
+      <h1>Join Us<br><span class="byline"></span></h1>
+      <p id="banner"></p>
+      <div class="social">
+        <a
+        class="socialmedia"
+        target="_blank"
+        href="https://www.linkedin.com"
+        ><img
+          class="icon"
+          src="/images/LinkedIn_icon.png"
+      /></a>
+  
+      <a class="socialmedia" target="_blank" href="https://www.facebook.com"
+        ><img
+          class="icon"
+          src="/images/facebook_icon.png"
+      /></a>
+      </div>
+      <nav>
+      <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="discover.html">Discover Page</a></li>
+      </ul>
+    </nav>
+      </div>
+      <div >
+        <p id="joinchamber"></p>
+      </div>
+    <p class="date"></p>
+
+    </header>
+    <main class="join-grid">
+        <h1>Contact The Chamber of Commerce!</h1>
+        <p>We want to hear from you. Please contact us!</p>
+        
+        <form method="get" action="thanks.html">
+            
+      
+          <fieldset>
+              <legend>Please Enter Your Information</legend>
+              <label class="top">First Name* <input type="text" name="fname" required></label>
+              <label class="top">Last Name* <input type="text" name="lname" required></label>
+              <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+              <label class="top">Phone* <input type="tel" name="phone" placeholder="12333444455" required></label>
+              <label class="top">Occupation* <input type="text" name="bname" required></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Enter Your Message</legend>
+            <label>
+              <textarea name="description" cols="35" rows="10"></textarea>
+            </label>
+          </fieldset>
+          <input type="hidden" id="formdate" name="date" required>
+          <input type="submit" value="Submit My Message"label class="submitBtn"/>
+        </form>
+      
+     
+    </main>
+    <footer>
+        <img
+        src="/images/Chamber logo.png"
+        alt="Port-Harcourt City Chamber of Commerce Logo"
+      />
+      <div class="contact">
+<p><span class="address">Port-Harcourt City Chamber of Commerce</span><br>Rumuogba Estate<br>
+  Port-Harcourt </p></div>
+  <div class="location">  
+    <p>info@phcitycommerce.org<br> 09051305368</p>
+    <p>Location Map <br> <a class="home" href="/index.html">Home</a> </p></div>
+      <div class="foot">&copy;2022 Port-Harcourt City Chamber of Commerce | <span class="foot-name">Efita Effiom</span> |<br>Last Modification: <span id="lastmod"></span</div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

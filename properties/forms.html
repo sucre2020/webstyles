@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Form</title>
+        <link rel="stylesheet" href="styles.css">
+		<style>
+			form {
+				/* Just to center the form on the page */
+				margin: 0 auto;
+				width: 400px;
+				/* To see the outline of the form */
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+			}
+
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			form li + li {
+				margin-top: 1em;
+			}
+
+			label {
+				/* To make sure that all labels have the same size and are properly aligned */
+				display: inline-block;
+				width: 90px;
+				text-align: right;
+			}
+
+			input,
+			textarea {
+				/* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+				font: 1em sans-serif;
+				/* To give the same size to all text fields */
+				width: 300px;
+				box-sizing: border-box; /* To harmonize the look & feel of text field border */
+				border: 1px solid #999;
+			}
+
+			input:focus,
+			textarea:focus {
+				/* To give a little highlight on active elements */
+				border-color: #000;
+			}
+
+			textarea {
+				/* To properly align multiline text fields with their labels */
+				vertical-align: top;
+				/* To give enough room to type some text */
+				height: 5em;
+			}
+
+			.button {
+				/* To position the buttons to the same position of the text fields */
+				padding-left: 90px;
+				/* same size as the label elements */
+			}
+
+			button {
+				/* This extra margin represent roughly the same space as the space between the labels and their text fields */
+				margin-left: 0.5em;
+			}
+		</style>
+	</head>
+
+	<body>
+	
+      <header>
+        <div class="logo-box">
+          <img 
+            src ="https://cdn.glitch.me/ade774ec-72c0-44fe-96c9-a29f976ef6a6%2FIMG-20210116-WA0006%20(1).jpg?v=1634417229729" 
+            alt="Sangisang Services Logo"/>
+        </div>
+   
+        <nav>
+          <ul>
+          <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="forms.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div id="feedback"></div>
+    <form action="/my-handling-form-page" method="post">
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user_name" />
+				</li>
+				
+              <li>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="user_city" />
+              </li>
+              <li>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="user_state" />
+              </li>
+              <li>
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="user_zip" />
+              </li>
+              <li>
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="user_country" />
+              </li>
+        <li>
+					<label for="mail">E-mail:</label>
+					<input type="email" id="mail" name="user_mail" />
+				</li>
+        
+				<li>
+					<label for="msg">Message / Enquiry:</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</li>
+				<li class="button">
+					<button type="submit">Send your message</button>
+				</li>
+			</ul>
+      <script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
+
+		</form>
+    <div class="title-container">
+        <img src="https://cdn.glitch.me/ade774ec-72c0-44fe-96c9-a29f976ef6a6%2Fralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg?v=1635207851703" alt = "unsplash free image of a beautiful home" style="width:100%; ">
+      
+        
+        <h1 class="title-centered">Excited!</h1>
+      
+        <p class="home-paragraph"> Your satisfaction is our priority. And we are super excited to work with you and help you move into your dream home. Come talk to us!
+</p>
+      </div>       
+	 <footer> 
+      <p>&copy; 2021 - Efita Effiom </p>
+      <div class="social">
+      <a href="https://www.mywebsite.com" target="_blank"><img src="https://cdn.glitch.com/9277c375-0ee6-401f-b624-e04f10f4b36c%2Ffacebook.png?1632616476539" alt="Facebook icon"></a>
+      <a href="https://www.twitter.com" target="_blank"
+            ><img
+              src="https://cdn.glitch.com/bc31db22-74f5-4f7a-8d16-49fd0c1394c5%2Ftwitter-logo.png?v=1588909009578"
+              alt="twitter logo"
+          /></a>
+      <a href="https://www.mywebsite.com" target="_blank"><img src="https://cdn.glitch.com/9277c375-0ee6-401f-b624-e04f10f4b36c%2Fyoutube.png?1632616467283" alt="YouTube icon"></a>
+	  <div class="focal"><a href="/index.html">Home</a></div>
+      </div>
+      </footer>
+  </body>
+</html>
