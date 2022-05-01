@@ -1,0 +1,76 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+  }
+  
+  
+  header {
+    background-color: #D1D0A3;
+    background-image: url("/chamber/images/images.jpg");
+    color: Turquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+  
+
+  
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .date {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem;
+    background-color: #f7f0e3;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.3em;
+    opacity: 95%;
+  }
+  
+ 
+  
+  h1 {
+    line-height: 0.8em;
+    grid-column: 2/3;
+    align-self: center;
+  }
+  
+  
+  
+  
+  footer {
+    display: block;
+    background-color: #161717;
+    color: white;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    text-align: center;
+  }
+  
+ul li{
+  list-style: none;
+}
+  
+img [data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
