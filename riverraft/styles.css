@@ -235,4 +235,16 @@ div.focal{
   .banner-box {
     display: block;
   }
+
+  .action button {
+    line-height: 1em;
+    width: 6em;
+    background-color: #D36135;
+    font-size: 1em;
+}
+
+h3{
+  font-size: 0.87em;
+}
+
 }
