@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="description" content="Book a hotel with Hotel Inn and Suites">
+    <meta name="keywords" content="Hotel,Inn,Suites,Suite,Book A Room,Free WiFi">
+    <title>Temple Inn and Suites</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="stickIt">
+        <!-- Header -->
+        <header>
+            <div class="headerLeft">
+                <a href="index.html"><img id="siteLogo" src="images/temple_logo.png" width="150" alt="Temple Inn and Suites"></a>
+            </div>
+            <div class="headerRight">
+                <img src="images/phone-128.webp" width="30" alt="phone icon"><a href="tel:090 5130 5368">090 5130 5368</a>
+            </div>
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="navigation hide">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a id="endNav" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+    <!-- Hero Image -->
+    <div class="containerMain" id="homeContent">
+        <div class="heroContainer">
+            <picture>
+                <source media="(max-width: 415px)" srcset="images/images (9).jpg">
+                <source media="(min-width: 416px)" srcset="images/images (9).jpg">
+                <img id="backgroundHeroImage" src="images/images (9).jpg" alt="Comfortability - book now">
+            </picture>
+            <a href="reservation.html" class="bookNowBtn">Book Now</a>
+        </div>
+
+        <main>
+            <!-- Welcome Text -->
+            <div id="mainWelcome">
+
+                <div id="welcomeText">
+                    <h1>Temple Inn & Suites</h1>
+                    <p id="welcomeSubTitle">Perfecting the saints and redeeming the dead can be exhausting, don't do it alone, 
+                        let us help <strong>YOU</strong>
+                        rest peacefully!</p>
+                    <p>We are super excited to have you here. As you prepare for your temple trip, we are preparing for your relaxation. We
+                        have many services and accomodations to meet your needs, and will be here for you. For enquiries
+                        please give us a call, 090 5130 5368. We are ready to help, and we are looking
+                        forward to your stay with us. If you are ready set up your reservation you can do so <a href="reservation.html">here</a>.</p>
+                    <p>Temple Inn & Suites caters to temple workers, patrons, and their families by providing
+                        specialized service and accomodations that meet the needs of those patrons. These hotel
+                        accomodations and services are available to anyone willing to abide by the terms and policies
+                        outlined by our company.</p>
+                    <p>Thank you!</p>
+                </div>
+
+                <div id="mainImgDiv">
+                    <picture>
+                        <source media="(max-width: 415px)" srcset="images/hotel complex.jpg">
+                        <source media="(min-width: 416px)" srcset="images/hotel complex.jpg">
+                        <img id="backgroundImage" src="images/hotel complex.jpg" width="400rem" height="400rem"alt="complex area">
+                    </picture>
+                </div>
+
+            </div>
+
+            <div class="homeMain">
+                <!-- Temple Info -->
+                <div class="templeInfoContainer">
+
+                    <div class="indTempImg">
+                        <h2>Aba Nigeria Temple</h2>
+                        <img src="images/temple_image.jpg" alt="Aba Nigeria Temple">
+                    </div>
+
+                    <div class="templeTextContainer">
+                        <div class="mainTempleInfoHome">
+                            <h3>Address</h3>
+                            <p>17Okpu, Umuoba Rd, Nigeria</p>
+                            <h3>Telephone</h3>
+                            <p><img src="images/phone-128.webp" width="17" alt="phone icon"><a href="tel:090 5130 5368">090 5130 5368</a></p>
+                            <h3>Services</h3>
+                            <p>No clothing rental available</p>
+                            <p>No cafeteria available</p>
+                            <p>No patron housing available</p>
+                            <p>Distribution center nearby</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amenities Summary -->
+                <section class="amenitiesHome">
+                    <h2>Free Amenities Include</h2>
+                    <ul>
+                        <li>Breakfast</li>
+                        <li>Excersize/workout room</li>
+                        <li>Indoor pool</li>
+                        <li>WiFi high-speed internet access</li>
+                        <li>Smart tvs</li>
+                        <li>Parking</li>
+                        <li>Family history consultation</li>
+                        <li>Family ordinance card services</li>
+                    </ul>
+                </section>
+
+            </div>
+        </main>
+    </div>
+    <section>
+        <h6>Here at the Temple Inn and Suites, you are always at home even when you're not at your home!</h6>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div id="preFooter">
+            <div id="prefootMid">
+
+                <div id="map">
+                    <iframe title="hotelMainMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+                        style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <div id="bottomfooterinfo">
+
+                    <h4>Temple Inn & Suites</h4>
+
+                    <address>
+                        <div class="footerBzInfo">
+                            <div>
+                                <img src="images/ic_location_on_48px-128.webp" width="50" alt="location icon">
+                            </div>
+                            <div>
+                                <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                            </div>
+                        </div>
+                    </address>
+
+                    <div class="footerBzInfo">
+                        <img src="images/phone-128.webp" width="50" alt="phone icon"><a href="tel:090 5130 5368">090 5130 5368</a>
+                    </div>
+
+                    <div class="footerBzInfo">
+                        <img src="images/Email-Letter-Mail-128.webp" width="50" alt="mail icon"><a href="mailto:templeinnsuites@gmail.com">templeinnsuites@gmail.com</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="midfootMid">
+                <div class="iconLinks">
+                    <a href="https://www.facebook.com"><img src="images/facebook_circle_color-128.webp" width="50" alt="facebook icon"></a>
+                    <a href="pinterest.com"><img src="images/1_Pinterest_colored_svg-128.webp" width="50" alt="pinterest icon"></a>
+                    <a href="twitter.com"><img src="images/twitter-128.webp" width="50" alt="twitter icon"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottomFooter">
+            <div>
+                <p>&copy;2022 Temple Inn & Suites | Attributions | Efita Effiom</p>
+            </div>
+            <div>
+                <a href="resource.html">Resources</a>
+            </div>
+        </div>
+        <a class="Home1" href="../index.html">Home</a>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- My Scripts -->
+    <script src="scripts/togglemenu.js"></script>
+    <script src="scripts/buttons.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>
