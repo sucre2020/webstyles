@@ -266,6 +266,8 @@ html {
     clear: both;
   }
 
-  .home{
-    color: teal;
+  .home1{
+    margin-left: 300px;
+    color: #ffff;
+    text-decoration: none;
   }
