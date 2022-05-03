@@ -72,12 +72,17 @@ div.focal{
 @media screen and (max-width: 550px) {
   /*will look better on a cell phone*/
   .social img {
-    width: 45px;
-  
+    width: 25px;}
+
+    #slider {
+        position: relative;
+        width: 50px;
+        height: auto;
+        margin-left: 70px;}
 
 }
 
-}.red{
+.red{
   color: red;
 }
 
