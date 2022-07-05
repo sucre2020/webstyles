@@ -161,3 +161,19 @@ h1{
     animation-delay: 5.5s;
     width: 35px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 60px;
+       
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .sidebar{
+        display: none;
+    }
+}
