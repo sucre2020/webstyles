@@ -165,7 +165,7 @@ h1{
 
 @media only screen and (max-width: 600px) {
     h1{
-        font-size: 60px;
+        font-size: 50px;
        
     }
 
@@ -178,10 +178,7 @@ h1{
     }
 
     .content{
-    position: absolute;
-    top: 50%;
     left: 20%;
-    transform: translate(-10%);
-    z-index: 2;
+   
     }
 }
